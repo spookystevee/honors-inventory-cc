@@ -8,7 +8,7 @@ Namely:
 
 **Latest stable MySQL version**
 
-_You might not need the latest versions, but it doesn't hurt!_
+_You might not necessarily need the latest versions, but it doesn't hurt!_
 
 ## Installing Dependencies
 
@@ -28,7 +28,7 @@ You will need to create a .env file in the **backend** root directory with the f
 
 ### `DB_HOST= localhost (or whatever your host is)`
 
-### ` DB_USER= your_mysql_user`
+### `DB_USER= your_mysql_user`
 
 ### `DB_PASSWORD= your_database_password`
 
@@ -66,5 +66,11 @@ I've provided two .bat files which will automatically run the servers, but if yo
 
 ### `npm start`
 
-The backend will run at http://localhost:5000/api by default
+The backend will run at http://localhost:5000/api by default.
+
 The frontend will run at http://localhost:3000 by default.
+
+Once it launches, it should display the following page:
+![Image](https://github.com/user-attachments/assets/2aa62e00-0774-4d11-b8c6-bbb6103f9f58)
+
+And that's it! Thank you for checking out my coding challenge!
