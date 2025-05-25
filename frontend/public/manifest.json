@@ -1,0 +1,25 @@
+{
+  "short_name": "Honors Inventory",
+  "name": "Honors Inventory",
+  "icons": [
+    {
+      "src": "usf_icon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "usf_icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "usf_icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
