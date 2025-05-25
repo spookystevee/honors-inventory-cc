@@ -19,7 +19,12 @@ CREATE TABLE equipment (
 INSERT INTO locations (room_name, building_type) VALUES
 ('HON 3017', 'Classroom'),
 ('HON 4015B', 'Office'),
-('HON Warehouse', 'Warehouse');
+('HON Warehouse', 'Warehouse'),
+('HON 4015A','Office'),
+('HON 2016','Classroom'),
+('HON 1010','Classroom'),
+('HON 1005A','Office'),
+('HON 1004B','Office'),
 
 INSERT INTO equipment (model, equipment_type, location_id) VALUES
 ('HP LaserJet', 'printer', 1),
