@@ -24,7 +24,7 @@ INSERT INTO locations (room_name, building_type) VALUES
 ('HON 2016','Classroom'),
 ('HON 1010','Classroom'),
 ('HON 1005A','Office'),
-('HON 1004B','Office'),
+('HON 1004B','Office');
 
 INSERT INTO equipment (model, equipment_type, location_id) VALUES
 ('HP LaserJet', 'printer', 1),
@@ -34,9 +34,11 @@ INSERT INTO equipment (model, equipment_type, location_id) VALUES
 ('Dell', 'monitor', 3),
 ('Dell', 'monitor', 3),
 ('Dell', 'monitor', 3),
-('Logitech M220', 'mouse', 2),
-('Keychron K5 Max', 'keyboard', 2),
-('Keychron K5 Max', 'keyboard', 2),
-('Logitech M220', 'mouse', 1),
-('Logitech M220', 'mouse', 2),
-('Keychron K5 Max', 'keyboard', 1);
+('Logitech M220', 'mouse', 4),
+('Keychron K5 Max', 'keyboard', 4),
+('Keychron K5 Max', 'keyboard', 7),
+('Logitech M220', 'mouse', 7),
+('Logitech M220', 'mouse', 6),
+('Keychron K5 Max', 'keyboard', 6),
+('HP LaserJet', 'printer', 5),
+('HP LaserJet', 'printer', 8);
